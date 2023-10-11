@@ -1,1 +1,3 @@
 # Proyecto-Videojuego-de-texto-Parte-6
+#Videojuego de Texto de Recorrer Laberintos, este videojuego cuenta con laberintos representados por caracteres ASCII dónde # representará una pared, . un pasillo y P el personaje. Se parte de una ubicación inicial y su objetivo es encontrar una salida. En esta etapa del proyecto se implementa una función que convierte el laberinto de cadena a matriz para que en vez de usar un bucle, haga uso de la función map.
+Se reescribe la función que lee el mapa usando la función readlines para leerlo todo en una sola operación, cargar las coordenadas y usar reduce para concatenar las filas leídas en una sola cadena, en otras palabras sustituir el bucle de lectura del mapa en forma de candena para usar la función reduce.
